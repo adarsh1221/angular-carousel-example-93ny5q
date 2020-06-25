@@ -1,0 +1,9 @@
+<p>improving the <a href="https://netbasal.com/building-a-simple-carousel-component-with-angular-3a94092b7080" target="_blank">Netanel Basal carousel</a> making "infinitum"
+</p>
+<carousel>
+  <ng-container *ngFor="let item of items">
+    <ng-container *carouselItem>
+      <div class="item">{{ item.title }}</div>
+    </ng-container>
+  </ng-container>
+</carousel>
